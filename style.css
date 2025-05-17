@@ -132,5 +132,68 @@ body {
     outline: none;
 }
 
+.auth-buttons {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  background-color: black;
+  color: #87ceeb;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-buttons button:hover {
+  background-color: #444;
+}
+
+.popup-auth {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 35%;
+  width: 30%;
+  padding: 30px;
+  background-color: black;
+  border-radius: 15px;
+  z-index: 999;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup-auth h2 {
+  color: #87ceeb;
+  margin-bottom: 20px;
+}
+
+.popup-auth form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+.popup-auth form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #87ceeb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.popup-auth form button:hover {
+  background-color: #68b6d4;
+}
 
 

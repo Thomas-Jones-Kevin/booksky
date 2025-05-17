@@ -52,4 +52,14 @@ function del(event){
 }
 
 
+document.getElementById("login-btn").addEventListener("click", function () {
+  document.getElementById("login-popup").style.display = "block";
+});
 
+document.getElementById("signup-btn").addEventListener("click", function () {
+  document.getElementById("signup-popup").style.display = "block";
+});
+
+function closeAuth(id) {
+  document.getElementById(id).style.display = "none";
+}
